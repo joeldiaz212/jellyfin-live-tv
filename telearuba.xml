@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv>
-  <channel id="telearuba">
-    <display-name>Telearuba</display-name>
+<tv generator-info-name="Custom Jellyfin XMLTV">
+
+  <channel id="telearuba13">
+    <display-name>Telearuba Channel 13</display-name>
   </channel>
 
-  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="telearuba">
-    <title>Telearuba Live</title>
-    <category>news</category>
-    <desc>Live programming from Telearuba.</desc>
+  <channel id="canal23">
+    <display-name>Canal 23</display-name>
+  </channel>
+
+  <channel id="canal29">
+    <display-name>Canal 29</display-name>
+  </channel>
+
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="telearuba13">
+    <title>Telearuba Channel 13 Live</title>
+    <category>News</category>
+    <desc>Live programming from Telearuba Channel 13.</desc>
   </programme>
+
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="canal23">
+    <title>Canal 23 Live</title>
+    <category>News</category>
+    <desc>Live programming from Canal 23.</desc>
+  </programme>
+
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="canal29">
+    <title>Canal 29 Live</title>
+    <category>News</category>
+    <desc>Live programming from Canal 29.</desc>
+  </programme>
+
 </tv>
