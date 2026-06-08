@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="telearuba">
+    <display-name>Telearuba</display-name>
+  </channel>
+
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="telearuba">
+    <title>Telearuba Live</title>
+    <category>News</category>
+    <desc>Live programming from Telearuba.</desc>
+  </programme>
+</tv>
