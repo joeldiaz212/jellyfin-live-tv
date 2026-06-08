@@ -2,33 +2,39 @@
 <tv generator-info-name="Custom Jellyfin XMLTV">
 
   <channel id="telearuba13">
-    <display-name>Telearuba Channel 13</display-name>
+    <display-name>Telearuba Canal 13</display-name>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2013.png" />
   </channel>
 
   <channel id="canal23">
-    <display-name>Canal 23</display-name>
+    <display-name>Telearuba Canal 23</display-name>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2023.png" />
   </channel>
 
-  <channel id="canal29">
-    <display-name>Canal 29</display-name>
+  <channel id="canal49">
+    <display-name>Telearuba Canal 49</display-name>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2049.png" />
   </channel>
 
   <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="telearuba13">
-    <title>Telearuba Channel 13 Live</title>
+    <title>Telearuba Canal 13 Live</title>
     <category>News</category>
-    <desc>Live programming from Telearuba Channel 13.</desc>
+    <desc>Live programming from Telearuba Canal 13.</desc>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2013.png" />
   </programme>
 
   <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="canal23">
-    <title>Canal 23 Live</title>
+    <title>Telearuba Canal 23 Live</title>
     <category>News</category>
-    <desc>Live programming from Canal 23.</desc>
+    <desc>Live programming from Telearuba Canal 23.</desc>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2023.png" />
   </programme>
 
-  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="canal29">
-    <title>Canal 29 Live</title>
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="canal49">
+    <title>Telearuba Canal 49 Live</title>
     <category>News</category>
-    <desc>Live programming from Canal 29.</desc>
+    <desc>Live programming from Telearuba Canal 49.</desc>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2049.png" />
   </programme>
 
 </tv>
