@@ -16,6 +16,11 @@
     <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2049.png" />
   </channel>
 
+  <channel id="heartradio">
+    <display-name>Heart Radio</display-name>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/heartradioicon.png" />
+  </channel>
+
   <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="telearuba13">
     <title>Telearuba Canal 13 Live</title>
     <category>News</category>
@@ -35,6 +40,15 @@
     <category>News</category>
     <desc>Live programming from Telearuba Canal 49.</desc>
     <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/canal%2049.png" />
+  </programme>
+
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="heartradio">
+    <title>Heart Radio Live</title>
+    <category>Music</category>
+    <category>Podcast</category>
+    <category>Radio</category>
+    <desc>Live music, podcasts, and radio programming from Heart Radio.</desc>
+    <icon src="https://raw.githubusercontent.com/joeldiaz212/jellyfin-live-tv/refs/heads/main/img/heart%20radio.png" />
   </programme>
 
 </tv>
